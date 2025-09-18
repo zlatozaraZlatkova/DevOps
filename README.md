@@ -16,11 +16,30 @@ This is a playground for the lab from the Git Branching and Pull Requests lesson
   cd <repo-folder>
   ```
 
-- [ ] **Create a new branch**  
+- [x] **Create a new branch**  
  ```
   git checkout -b my-feature-branch
   ```
-  
+- [x] Simulate a conflict scenario
+  - [x] Create two branches (dev1 and dev2) from the main branch to act as two dev.
+     ```
+     git checkout main
+     git checkout -b dev1
+     ```   
+  - [x] Make different changes to the same file on each branch.
+    ```
+    git add README.md
+    ```
+  - [x] Commit the changes on both branches.
+     ```
+    git commit -m "Dev1: update README.md"
+    ```
+  - [x] Push the first branch to the remote.
+    ```
+    git push origin dev1
+    ``` 
+  - [ ] Try to push the second branch to the remote to trigger a conflict.
+
 - [ ] **Make changes to the file**  
   (edit files in your editor: VSCode)  
 
