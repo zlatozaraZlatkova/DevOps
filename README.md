@@ -20,7 +20,13 @@ This is a playground for the lab from the Git Branching and Pull Requests lesson
  ```
   git checkout -b my-feature-branch
   ```
-  
+- [x] Simulate a conflict scenario
+  - [x] Create two branches (dev1 and dev2) from the main branch to act as two dev.
+  - [ ] Make different changes to the same file on each branch.
+  - [ ] Commit the changes on both branches.
+  - [ ] Push the first branch to the remote.
+  - [ ] Try to push the second branch to the remote to trigger a conflict.
+
 - [ ] **Make changes to the file**  
   (edit files in your editor: VSCode)  
 
