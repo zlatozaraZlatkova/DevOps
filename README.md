@@ -79,19 +79,19 @@ This is a playground for the lab from the Git Branching and Pull Requests lesson
  git push origin my-feature-branch
  ```
   
-- [ ] **Create a Pull Request**  
+- [x] **Create a Pull Request**  
   (no direct git command – do this via GitHub UI: click **Compare & pull request**)  
 
-- [ ] **Review and discuss the Pull Request**  
+- [x] **Review and discuss the Pull Request**  
   (happens in GitHub UI through comments and review)  
 
-- [ ] **Merge the Pull Request**  
+- [x] **Merge the Pull Request**  
   (happens in GitHub UI: click **Merge pull request**)  
 
-- [ ] **Close the Pull Request**  
+- [x] **Close the Pull Request**  
   (usually closes automatically after merge, or manually via GitHub UI)  
 
-- [ ] **Clean up local branches**  
+- [x] **Clean up local branches**  
   
 ``` 
   git checkout main
@@ -99,7 +99,7 @@ This is a playground for the lab from the Git Branching and Pull Requests lesson
   git push origin --delete my-feature-branch
   ```
   
-- [ ] **Sync the local repository**  
+- [x] **Sync the local repository**  
   (if you haven't added upstream yet → do it once)  
   
  ``` 
